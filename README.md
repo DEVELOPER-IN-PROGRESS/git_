@@ -25,9 +25,9 @@ git shash pop                                 All stashed changes are popped bac
   
 git branch   <branch name>                    Creates a new branch in the workflow  other than main/master branch 
   
-git checkout <branch name>                    Switches from working branch to target branch 
+git checkout <branch name>   ::               Switches from working branch to target branch 
 
-git merge 
+git merge <branch name>      ::               Merges  target branch to current working branch 
 
 git branch -d <branch name>                   Deletes the target branch .Usually done after the required features or testing are done
   
